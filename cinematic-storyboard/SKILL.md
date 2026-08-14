@@ -34,11 +34,48 @@ Make the storyboard responsible for:
 
 Do not use it for character design sheets, environment/prop asset design, detailed UI copy, story explanation, production notes, or final artwork. Keep captions short and functional. Treat reference images for character, setting, and interface as the visual authorities; treat the storyboard only as the blocking authority.
 
+## Visual storyboard sheet format
+
+When the user asks for a visual storyboard image, output **one composite storyboard sheet containing all panels by default**, unless the user explicitly requests separate panel files.
+
+Use a clean Koda-style production board:
+
+- one neutral white, cream, or light-gray sheet
+- panels arranged in readable rows according to shot structure
+- panel ID and concise camera/state label above each panel
+- minimal line-art or grayscale blocking drawings
+- consistent character, room orientation, and screen direction
+- small arrows only when needed to clarify camera or subject movement
+
+Do not turn the sheet into an infographic, style bible, UI specification, production dashboard, or explanatory poster.
+
+Do not include long paragraphs, dense tables, detailed UI copy, asset notes, color palettes, audience summaries, or technical essays inside the storyboard image.
+
+For interface scenes, represent only the minimum visual relationship required for blocking and attention flow. Use simple cards, lines, status blocks, or one or two essential labels. Detailed UI content remains the responsibility of UI assets and the video prompt.
+
+Multiple panels may belong to the same continuous shot. Group them visually by row or concise shot label; do not imply a cut between them unless a cut is explicitly specified.
+
 ## Screen and interface rule
 
 Anchor every screen or UI layer to a physical wall, display, or surface named by the brief. Do not invent floating windows, holographic clutter, or detached HUDs unless explicitly requested.
 
 For governance or interface scenes, stage causal clarity in this order: existing system state, character realization, deliberate action, resulting system state. Keep the character's authority visually distinct when that distinction is story-critical.
+
+## Normal-playback clarity
+
+Assume the audience watches once at normal speed. Do not rely on pausing, zooming, screenshots, or reading dense dashboards.
+
+For each shot, define one primary visual claim. Critical interface states should be understandable through grouping, scale, contrast, motion, and composition rather than paragraphs of text.
+
+Use no more than one dominant entity or label, one dominant status or relationship, and one secondary supporting cue per shot. Treat legal text, transaction IDs, intermediate company names, sidebars, and audit logs as background texture only.
+
+Before approving a storyboard, verify:
+
+- the primary relationship is understandable without reading small text
+- each shot has one main information task
+- the key entity or state is visually dominant
+- changed and story-critical unchanged states can be distinguished
+- the causal story remains understandable at normal playback speed
 
 ## Output format
 

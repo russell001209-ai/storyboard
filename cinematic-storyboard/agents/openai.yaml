@@ -1,4 +1,0 @@
-interface:
-  display_name: "Cinematic Storyboard"
-  short_description: "Generate one clean, directing-only storyboard sheet."
-  default_prompt: "Use $cinematic-storyboard to generate one composite storyboard sheet for this scene."

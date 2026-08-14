@@ -1,0 +1,4 @@
+interface:
+  display_name: "kodirector"
+  short_description: "Generate paired storyboard and video prompts."
+  default_prompt: "Use $kodirector to create paired storyboard and video prompts for this scene."
